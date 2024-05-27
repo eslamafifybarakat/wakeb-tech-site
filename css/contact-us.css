@@ -1,0 +1,67 @@
+/* ===============START CONTACT US=============*/
+#contact-us-page {
+  padding-top: 6rem;
+  z-index: 1;
+}
+#contact-us-page .global-card {
+  border-radius: 15px;
+  border: 2px solid #00a1e627;
+  background-color: #030b0e;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+#contact-us-page .map {
+  border-radius: 15px;
+}
+#contact-us-page .contact-info {
+  background-color: #272b3071 !important ;
+  border: 1px solid #272b30 !important ;
+  border-radius: 10px;
+}
+#contact-us-page .contact-icon {
+  width: 2.4rem;
+  min-width: 2.4rem;
+  height: 2.4rem;
+  background-color: #c3c3c326;
+}
+.form-control:focus,
+.form-control {
+  background-color: #272b3071;
+  border-color: #272b30;
+  height: 3.4rem !important;
+  border-radius: 10px !important;
+  color: #e4e9ef !important;
+}
+.error-input {
+  border-color: rgb(220, 53, 69) !important;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-label {
+  font-weight: 500;
+  color: #e4e9ef;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+.form-check-input {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  border: 2px solid #334560 !important;
+  background-color: #1c1d28;
+}
+.form-check-input:checked {
+  background-color: #1c1d28;
+}
+textarea.form-control {
+  min-height: 9rem;
+}
+/* ===============END CONTACT US=============*/
+
+@media (max-width: 578px) {
+  iframe {
+    height: 255px;
+  }
+}

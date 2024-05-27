@@ -1,2 +1,3 @@
-# wakeb-tech-site
-sarie-site is html,css and js
+# wakeb-tech
+
+wakeb-tech is html,css and js

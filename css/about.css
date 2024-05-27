@@ -1,0 +1,285 @@
+/* =============START ABOUT US PAGE================= */
+/* ==========HERO SECTION=========== */
+#about-page #hero-section {
+  padding: 10rem 0 5rem 0;
+}
+#about-page .hero-img {
+  width: 87%;
+}
+#about-page #hero-section .fs-lg {
+  font-size: 2.7rem;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  background-position: 50% 70%;
+}
+@media (max-width: 1199px) {
+  #about-page #hero-section {
+    min-height: auto;
+    padding: 8rem 0 3rem 0 !important;
+  }
+  #about-page #hero-section .fs-lg {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 991px) {
+  #about-page #hero-section .fs-lg {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 768px) {
+  #about-page #hero-section .fs-lg {
+    font-size: 1.3rem;
+  }
+  #about-page #hero-section .hero-img {
+    margin: auto;
+    width: 80%;
+  }
+}
+@media (max-width: 567px) {
+  #about-page #hero-section .fs-lg {
+    font-size: 1.1rem;
+  }
+}
+/* ========ABOUT WAKEB============ */
+#about-page #about-wakeb hr {
+  border-color: #ffffff !important;
+}
+#about-page #about-wakeb .wakeb-logo {
+  width: 90%;
+  border-radius: 20px;
+  z-index: 1;
+  background-color: #141f74;
+}
+#about-page #about-wakeb .wakeb-logo img {
+  width: 80%;
+}
+#about-page #about-wakeb .about-text {
+  line-height: 1.7;
+}
+#about-page #about-wakeb .layer {
+  border-radius: 20px;
+}
+#about-page #about-wakeb .layer-one {
+  height: 90%;
+  width: 90%;
+  background-color: #1b1b2e;
+  right: 6%;
+  z-index: 0;
+}
+#about-page #about-wakeb .layer-two {
+  height: 80%;
+  width: 80%;
+  background-color: #1b1b2e7e;
+  right: 2%;
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  #about-page #about-wakeb .wakeb-logo {
+    width: 100%;
+  }
+  #about-page #about-wakeb .layer {
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+  #about-page #about-wakeb .layer-one {
+    bottom: -16%;
+  }
+  #about-page #about-wakeb .layer-two {
+    bottom: -30%;
+  }
+  #about-page #about-wakeb .wakeb-logo img {
+    width: 60%;
+  }
+  #about-wakeb .fs-lg {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  #about-wakeb .fs-lg {
+    font-size: 1.9rem;
+  }
+  #about-page #about-wakeb .about-text {
+    font-size: 1.1rem !important;
+  }
+}
+@media (max-width: 567px) {
+  #about-wakeb .fs-lg {
+    font-size: 1.6rem;
+  }
+  #about-page #about-wakeb .about-text {
+    font-size: 1rem !important;
+  }
+}
+/* ===========================END ABOUT US PAGE=============================== */
+
+/* ==============START TESTIMOINAL========== */
+#testimonial .testimonial-content {
+  background: linear-gradient(
+      250.1deg,
+      rgba(243, 63, 255, 0.85) -8.18%,
+      rgba(30, 33, 113, 0.85) 54.61%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  clip-path: polygon(95% 0, 100% 14%, 100% 75%, 100% 100%, 0 100%, 0 0);
+  padding: 2px;
+  border-radius: 20px;
+}
+#testimonial .qotes {
+  z-index: 1;
+  top: -34px;
+  left: 90px;
+}
+#testimonial .testimonial-items {
+  background-color: #0e0c15;
+  clip-path: polygon(95% 0, 100% 14%, 100% 75%, 100% 100%, 0 100%, 0 0);
+  border-radius: 20px;
+  padding: 4rem;
+}
+#testimonial .testimonial-items .description {
+  line-height: 2.6;
+}
+#testimonial .testimonial-items .info {
+  width: 60%;
+}
+
+#testimonial .testimonial-items .person-img {
+  width: 10rem;
+  height: 10rem;
+}
+#testimonial .testimonial-items .person-img img {
+  border-radius: 15px;
+}
+#testimonial .slick-dots {
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+}
+#testimonial .slick-dots li {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#testimonial .slick-dots .slick-active {
+  background-image: conic-gradient(
+    from 180deg at 50% 50%,
+    #ff98e2 0deg,
+    #ffc876 35.77deg,
+    #79fff7 153.75deg,
+    #9f53ff 258.75deg,
+    #ff98e2 360deg
+  );
+}
+
+.slick-dots li button {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e0c15 !important;
+  border-radius: 50%;
+  width: 22px !important;
+  height: 22px !important;
+}
+.slick-dots li button:before {
+  color: #fff !important;
+  opacity: 1 !important;
+  top: 4px !important;
+  left: 2px !important;
+}
+@media (max-width: 992px) {
+  #testimonial .slick-dots {
+    width: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  #testimonial .testimonial-items {
+    padding: 2rem;
+  }
+  #testimonial .testimonial-items .info {
+    width: 80%;
+  }
+  #testimonial .testimonial-items .description {
+    line-height: 1.6;
+  }
+}
+@media (max-width: 567px) {
+  #testimonial .testimonial-items .info {
+    width: 100%;
+  }
+}
+/* =============START WORK============ */
+#work {
+  min-height: 24rem;
+}
+#work .line {
+  height: 2px;
+  background-color: rgba(217, 217, 217, 0.1);
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+#work .line::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: var(--bg-main-color);
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+#work .work-description {
+  color: #b6b1c8;
+  width: 85%;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+#work .work-content {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+#work .work-content:hover .line {
+  background: #00b3ff30;
+}
+#work .work-content:hover .work-description,
+#work .work-content:hover .line::after {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 992px) {
+  #work .fs-lg {
+    font-size: 2.1rem;
+  }
+  #testimonial .slick-dots {
+    top: inherit;
+    bottom: 14px;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #work .work-description {
+    width: 100%;
+  }
+}
+@media (max-width: 567px) {
+  #work .fs-lg {
+    font-size: 1.6rem;
+  }
+}
+/* =============END WORK============ */
+.slick-active {
+  opacity: 1 !important;
+}

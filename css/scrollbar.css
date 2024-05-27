@@ -1,0 +1,56 @@
+/* START SCROLL */
+
+::-webkit-scrollbar {
+  width: 0.3125rem;
+}
+
+::-moz-scrollbar {
+  width: 0.3125rem;
+}
+
+::-o-scrollbar {
+  width: 0.3125rem;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 0.25rem;
+}
+
+::-moz-scrollbar:horizontal {
+  height: 0.25rem;
+}
+
+::-o-scrollbar:horizontal {
+  height: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-moz-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-o-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: var(--bg-main-color); */
+  background: #090923;
+  opacity: 0.7;
+}
+
+::-moz-scrollbar-thumb {
+  /* background: var(--bg-main-color); */
+  background: #090923;
+  opacity: 0.7;
+}
+
+::-o-scrollbar-thumb {
+  /* background: var(--bg-main-color); */
+  background: #090923;
+  opacity: 0.7;
+}
+/* END SCROLL */
