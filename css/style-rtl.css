@@ -162,7 +162,7 @@ a,
 }
 /* =================Use Cases============ */
 #use-cases #hero-section {
-  background-image: url(./../images/useCases/use-cases-bg-rtl.webp);
+  background-image: url(./../images/useCases/bg-use-cases-ar.jpg);
 }
 #use-cases #hero-section .fs-lg {
   background-position: right bottom !important;
@@ -193,13 +193,17 @@ a,
   left: -24px;
   right: inherit;
 }
+#solution-services .services-container .solution-content:after {
+  left: -47px;
+  right: inherit;
+}
 @media (max-width: 578px) {
   .solution-content::after {
     left: 50% !important;
-    right: inherit !important;
-    transform: translate(-50%, 0px) rotate(90deg) !important;
+    right: 100% !important;
+    /* transform: translate(-50%, 0px) rotate(90deg) !important; */
   }
 }
 #career #hero-section {
-  background-image: url(./../images/career/career-bg-ar.png);
+  background-image: url(./../images/career/bg-career-ar.png);
 }

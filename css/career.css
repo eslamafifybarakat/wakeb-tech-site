@@ -1,5 +1,5 @@
 #career #hero-section {
-  background-image: url(./../images/career/career-bg.png);
+  background-image: url(./../images/career/bg-career.jpg);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,10 +10,14 @@
 }
 
 #career #career-solutions {
-  background-image: url(../images/career/career-solutions-bg.png);
+  background-image: url(../images/career/career-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+#career .career-search .input-group-text,
+#career .career-search .form-control {
+  background-color: #20324869;
 }
 /* ===============START SOLUTION AND SERVICES============ */
 .case-icon {

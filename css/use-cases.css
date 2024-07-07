@@ -1,6 +1,6 @@
 #use-cases #hero-section {
-  background-image: url(./../images/useCases/use-cases-bg.webp);
-  background-position: bottom;
+  background-image: url(./../images/useCases/bg-use-cases.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
