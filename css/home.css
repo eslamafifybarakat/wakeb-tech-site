@@ -355,3 +355,18 @@
   }
 }
 /* ==============END PARTNERS============ */
+
+#articles .nav-pills {
+  border: 0;
+}
+#articles .nav-pills .nav-link {
+  background-color: #2a135b3d;
+  border-radius: 50px;
+  padding: 0.8rem 1.1rem;
+  color: #b6b6b6;
+  border: 0;
+}
+#articles .nav-pills .nav-link.active {
+  color: var(--text-white-color);
+  background: #5200fda8;
+}
