@@ -253,6 +253,16 @@
   top: 50%;
   transform: translate(0px, -50%);
 }
+#solution-services .nav-pills button {
+  min-height: 64px;
+}
+#solution-services .nav-pills .nav-link.active {
+  border: 0;
+  background-color: var(--bg-main-color) !important;
+}
+#solution-services .tab-content.d-none {
+  display: block !important;
+}
 @media (max-width: 768px) {
   #solution-services {
     padding-top: 3rem;

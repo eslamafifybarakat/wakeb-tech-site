@@ -395,254 +395,805 @@
                         </div>
                     </div>
                 </div>
-                <div class="pt-4 px-2">
-                    <div class="d-flex flex-nowrap gap-5 services-container">
-                        <div class="solution-content position-relative">
+                <nav class="pt-4 px-2">
+                    <ul class="nav nav-pills mb-3 align-items-center py-sm-0 py-3 flex-nowrap gap-5 services-container"
+                        id="pills-tab" role="tablist">
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    الذكاء الاصطناعي
+                                <button
+                                    class="nav-link active btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-ai-tab" data-bs-toggle="pill" data-bs-target="#pills-ai" type="button"
+                                    role="tab" aria-controls="pills-ai" aria-selected="true">
+                                    Artificial Intelligence
                                 </button>
                             </span>
-                        </div>
-                        <div class="solution-content position-relative">
+                        </li>
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-uvs-tab" data-bs-toggle="pill" data-bs-target="#pills-uvs" type="button"
+                                    role="tab" aria-controls="pills-uvs" aria-selected="false">
                                     UVS
                                 </button>
                             </span>
-                        </div>
-                        <div class="solution-content position-relative">
+                        </li>
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    استضافة السحابية
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-cloud-hosting-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-cloud-hosting" type="button" role="tab"
+                                    aria-controls="pills-cloud-hosting" aria-selected="false">
+                                    Cloud Hosting
                                 </button>
                             </span>
-                        </div>
-                        <div class="solution-content position-relative">
+                        </li>
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    أنظمة الويب
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-second-web-systems-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-second-web-systems" type="button" role="tab"
+                                    aria-controls="pills-second-web-systems" aria-selected="false">
+                                    Web Systems
                                 </button>
                             </span>
-                        </div>
-                        <div class="solution-content position-relative">
+                        </li>
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    إدارة البيانات
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-data-management-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-data-management" type="button" role="tab"
+                                    aria-controls="pills-data-management" aria-selected="false">
+                                    Data Management
                                 </button>
                             </span>
-                        </div>
-                        <div class="solution-content position-relative">
+                        </li>
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    البيئة الرقمية
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-digital-environment-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-digital-environment" type="button" role="tab"
+                                    aria-controls="pills-digital-environment" aria-selected="false">
+                                    Digital Environment
                                 </button>
                             </span>
-                        </div>
-                        <div class="solution-content position-relative">
+                        </li>
+                        <li class="nav-item solution-content position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    التحول الرقمي
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-digital-transformation-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-digital-transformation" type="button" role="tab"
+                                    aria-controls="pills-digital-transformation" aria-selected="false">
+                                    Digital Transformation
                                 </button>
                             </span>
-                        </div>
-                        <div class="">
+                        </li>
+                        <li class="nav-item position-relative" role="presentation">
                             <span class="button-border h-100">
-                                <button class="btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn">
-                                    آخرون
+                                <button
+                                    class="nav-link btn btn-solid-main fs-6 py-2 h-100 navbar-button w-100 solution-btn"
+                                    id="pills-others-tab" data-bs-toggle="pill" data-bs-target="#pills-others"
+                                    type="button" role="tab" aria-controls="pills-others" aria-selected="false">
+                                    Others
                                 </button>
                             </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-md-5 mt-4 mx-0">
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="service-card h-100">
-                            <div
-                                class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
-                                <div class="service-overlay position-absolute"></div>
-                                <div>
-                                    <h4 class="text-white-color text-uppercase service-title ls-1">الذكاء الاصطناعي
-                                    </h4>
-
-                                </div>
-                                <div class="d-flex justify-content-between gap-3 flex-wrap">
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-ai" role="tabpanel" aria-labelledby="pills-ai-tab"
+                        tabindex="0">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
                                     <div
-                                        class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
-                                        <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <a href="#"
-                                        class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
-                                        استكشاف المزيد
-                                        <span>
-                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" class="scaleX-rtl"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
-                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                CLOUD HOSTING
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                UAV - DRONES
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                WEB SYSTEMS
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                WEB SYSTEMS
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                WEB SYSTEMS
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="service-card h-100">
-                            <div
-                                class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
-                                <div class="service-overlay position-absolute"></div>
-                                <div>
-                                    <h4 class="text-white-color text-uppercase service-title ls-1">
-                                        استضافة السحابة
-                                    </h4>
-
-                                </div>
-                                <div class="d-flex justify-content-between gap-3 flex-wrap">
+                    <div class="tab-pane fade" id="pills-uvs" role="tabpanel" aria-labelledby="pills-uvs-tab"
+                        tabindex="1">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
                                     <div
-                                        class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
-                                        <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <a href="#"
-                                        class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
-                                        استكشاف المزيد
-                                        <span>
-                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" class="scaleX-rtl"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="service-card h-100">
-                            <div
-                                class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
-                                <div class="service-overlay position-absolute"></div>
-                                <div>
-                                    <h4 class="text-white-color text-uppercase service-title ls-1">
-                                        طائرات بدون طيار - طائرات بدون طيار
-                                    </h4>
-
-                                </div>
-                                <div class="d-flex justify-content-between gap-3 flex-wrap">
+                    <div class="tab-pane fade" id="pills-cloud-hosting" role="tabpanel"
+                        aria-labelledby="pills-cloud-hosting-tab" tabindex="2">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
                                     <div
-                                        class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
-                                        <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <a href="#"
-                                        class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
-                                        استكشاف المزيد
-                                        <span>
-                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" class="scaleX-rtl"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
-                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                CLOUD HOSTING
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="service-card h-100">
-                            <div
-                                class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
-                                <div class="service-overlay position-absolute"></div>
-                                <div>
-                                    <h4 class="text-white-color text-uppercase service-title ls-1">
-                                        نظم الويب
-                                    </h4>
-
-                                </div>
-                                <div class="d-flex justify-content-between gap-3 flex-wrap">
+                    <div class="tab-pane fade" id="pills-second-web-systems" role="tabpanel"
+                        aria-labelledby="pills-second-web-systems-tab" tabindex="0">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
                                     <div
-                                        class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
-                                        <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <a href="#"
-                                        class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
-                                        استكشاف المزيد
-                                        <span>
-                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" class="scaleX-rtl"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
-                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                CLOUD HOSTING
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                UAV - DRONES
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="service-card h-100">
-                            <div
-                                class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
-                                <div class="service-overlay position-absolute"></div>
-                                <div>
-                                    <h4 class="text-white-color text-uppercase service-title ls-1">
-                                        نظم الويب
-                                    </h4>
-
-                                </div>
-                                <div class="d-flex justify-content-between gap-3 flex-wrap">
+                    <div class="tab-pane fade" id="pills-data-management" role="tabpanel"
+                        aria-labelledby="pills-data-management-tab" tabindex="0">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
                                     <div
-                                        class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
-                                        <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <a href="#"
-                                        class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
-                                        استكشاف المزيد
-                                        <span>
-                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" class="scaleX-rtl"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
-                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                CLOUD HOSTING
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="service-card h-100">
-                            <div
-                                class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
-                                <div class="service-overlay position-absolute"></div>
-                                <div>
-                                    <h4 class="text-white-color text-uppercase service-title ls-1">
-                                        نظم الويب
-                                    </h4>
-
-                                </div>
-                                <div class="d-flex justify-content-between gap-3 flex-wrap">
+                    <div class="tab-pane fade" id="pills-digital-environment" role="tabpanel"
+                        aria-labelledby="pills-digital-environment-tab" tabindex="0">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
                                     <div
-                                        class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
-                                        <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <a href="#"
-                                        class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
-                                        استكشاف المزيد
-                                        <span>
-                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" class="scaleX-rtl"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
-                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                CLOUD HOSTING
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-digital-transformation" role="tabpanel"
+                        aria-labelledby="pills-digital-transformation-tab" tabindex="0">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab"
+                        tabindex="0">
+                        <div class="row mt-md-5 mt-4 mx-0">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">ARTIFICIAL
+                                                INTELLIGENCE
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                CLOUD HOSTING
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                UAV - DRONES
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="service-card h-100">
+                                    <div
+                                        class="d-flex flex-column justify-content-between gap-5 service-content h-100 position-relative">
+                                        <div class="service-overlay position-absolute"></div>
+                                        <div>
+                                            <h4 class="text-white-color text-uppercase service-title ls-1">
+                                                UAV - DRONES
+                                            </h4>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-3 flex-wrap">
+                                            <div
+                                                class="case-icon d-flex justify-content-center align-items-center arrow-bg mb-0">
+                                                <img src="./images/home/cases/arrow.svg" alt="arrow">
+                                            </div>
+                                            <a href="#"
+                                                class="text-white-color d-flex gap-3 align-items-center text-uppercase fs-8">
+                                                explore more
+                                                <span>
+                                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M0.292893 1.01164C0.683417 0.621119 1.31658 0.621119 1.70711 1.01164L7.70711 7.01164C8.09763 7.40217 8.09763 8.03533 7.70711 8.42586L1.70711 14.4259C1.31658 14.8164 0.683417 14.8164 0.292893 14.4259C-0.0976311 14.0353 -0.0976311 13.4022 0.292893 13.0116L5.58579 7.71875L0.292893 2.42586C-0.0976311 2.03533 -0.0976311 1.40217 0.292893 1.01164Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
