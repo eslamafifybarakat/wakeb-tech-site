@@ -255,6 +255,7 @@
 }
 #solution-services .nav-pills button {
   min-height: 64px;
+  text-wrap: nowrap;
 }
 #solution-services .nav-pills .nav-link.active {
   border: 0;
