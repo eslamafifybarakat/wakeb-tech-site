@@ -25,7 +25,7 @@ const clients = [
 
 function createClients() {
     var clientsItems = $(`.clients-items`);
-    clients.forEach(function (item) {
+    clients?.forEach(function (item) {
         var slide = $('<div class="client-img d-flex justify-content-center"><img class="h-100" src="' + item.imageUrl + '" alt="' + item.altText + '"></div>');
         clientsItems.append(slide);
     });
@@ -84,7 +84,7 @@ clientsImgs.forEach(image => {
     const originalSrc = image.src;
     image.addEventListener('mouseover', function () {
         // Change the extension to webp on hover
-        image.src = originalSrc.replace(/\.png$/, '.webp');
+        image.src = originalSrc?.replace(/\.png$/, '.webp');
     });
 
     image.addEventListener('mouseout', function () {
@@ -221,7 +221,7 @@ $(document).ready(function () {
 
     // Event listener for tab clicks
     $('.nav-link').on('click', function (event) {
-        var tabId = $(this).attr('data-bs-target').replace('#', ''); // Get the tab ID
+        var tabId = $(this)?.attr('data-bs-target')?.replace('#', ''); // Get the tab ID
         // Check if the slider is already initialized for the current tab
         showLoading();
         if (!isSliderInitialized[tabId]) {
@@ -272,7 +272,7 @@ function changeImgSrc() {
             const originalSrc = image.src;
             image.addEventListener('mouseover', function () {
                 // Change the extension to webp on hover
-                image.src = originalSrc.replace(/\.png$/, '.webp');
+                image.src = originalSrc?.replace(/\.png$/, '.webp');
             });
 
             image.addEventListener('mouseout', function () {
