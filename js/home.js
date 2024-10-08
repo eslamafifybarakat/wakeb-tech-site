@@ -37,10 +37,13 @@ function makeClientsSlide() {
     setTimeout(() => {
         $('.clients-items').slick({
             autoplay: true,
-            speed: 1000,
+            speed: 200,
             dots: false,
             infinite: true,
             loop: true,
+            arrows: true, // Enable arrows
+            draggable: true, // Enable dragging with mouse
+            swipeToSlide: true, // Enable swipe to slide functionality
             slidesToShow: 7,
             slidesToScroll: 2,
             responsive: [
@@ -76,7 +79,7 @@ function makeClientsSlide() {
                 }
             ]
         });
-    }, 500);
+    }, 100);
 }
 
 let clientsImgs = document.querySelectorAll('#clients img');

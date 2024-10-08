@@ -35,6 +35,40 @@
   cursor: pointer;
 }
 
+/* Start Slick Customization */
+#clients .slick-prev, .slick-next {
+  display: inline-block !important;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; /* Make it circular */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+#clients .slick-prev {
+  left: 0; /* Adjust as per your layout */
+  font-size: 0; /* Hide default content provided by Slick */
+}
+
+#clients .slick-next {
+  right: 0; /* Adjust as per your layout */
+  font-size: 0; /* Hide default content provided by Slick */
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 30px !important;
+  background: linear-gradient(150deg, #000000, #fe0018, #3c406f, #d87cee) !important;
+  box-shadow: 0px 4px 6px rgb(0 0 0 / 71%);
+  border-radius: 50%;
+}
+
+/* End Slick Customization */
+
 /* =========END CLIENTS============= */
 
 /* =========START ABOUT US============= */
@@ -360,6 +394,39 @@ body{
 
 #solution-services .arrow-bg {
   background-color: #00a1e6;
+}
+
+#solution-services .service-item-new-card .service-img {
+  position: relative;
+  overflow: hidden; /* Ensure overflow is hidden to contain the hover effect */
+}
+
+#solution-services .service-item-new-card .service-img .service-overlay-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  color: #121212; /* White text */
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%); /* Initially hide the overlay by moving it down */
+  transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  border-radius:  0 0 15px 15px;
+}
+
+#solution-services .service-item-new-card:hover .service-overlay-title {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0); /* Bring the overlay up into view */
+}
+
+#solution-services .service-item-new-card:hover .service-img img {
+  filter: brightness(0.8); /* Optionally darken the image on hover */
 }
 
 #solution-services .service-item-new-card .service-img {

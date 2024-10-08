@@ -68,6 +68,20 @@ a,
 /* ================END ABOUT============= */
 
 /* ===========START CLIENTS=========== */
+
+/* Start Slick Customization */
+#clients .slick-prev {
+  left: initial !important;
+  right: 0; /
+}
+
+#clients .slick-next {
+  left: 0;
+  right: initial !important;
+}
+
+/* End Slick Customization */
+
 #clients::after {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 30%, 15% 0);
   clip-path: polygon(0 0, 100% 0, 100% 30%, 15% 0);
